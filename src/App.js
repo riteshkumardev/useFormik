@@ -1,10 +1,13 @@
 import "./App.css";
-import Form from "./form/Form";
+// import Form from "./form/Form";
+import RhookForm from "./rhookform/RhookForm";
+import Form from "./useformik/Form";
 
 function App() {
   return (
     <div>
-      <Form />s
+     {/* <Form/> */}
+      <RhookForm/>
     </div>
   );
 }
