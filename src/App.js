@@ -1,4 +1,7 @@
+
 import "./App.css";
+import LabgenForm from "./Labgen/LabgenForm";
+import Navbar from "./Labgen/Navbar";
 // import Form from "./form/Form";
 import RhookForm from "./rhookform/RhookForm";
 import Form from "./useformik/Form";
@@ -6,8 +9,9 @@ import Form from "./useformik/Form";
 function App() {
   return (
     <div>
-     {/* <Form/> */}
-      <RhookForm/>
+       <Navbar />
+<LabgenForm/>
+
     </div>
   );
 }
